@@ -98,49 +98,49 @@ ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/adc.o: bsp/exp16/pic24fj128ga204_pim/
 	@${MKDIR} "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim" 
 	@${RM} ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/adc.o.d 
 	@${RM} ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/adc.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  bsp/exp16/pic24fj128ga204_pim/adc.c  -o ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/adc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/adc.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
+	${MP_CC} $(MP_EXTRA_CC_PRE)  bsp/exp16/pic24fj128ga204_pim/adc.c  -o ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/adc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/adc.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/adc.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/buttons.o: bsp/exp16/pic24fj128ga204_pim/buttons.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim" 
 	@${RM} ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/buttons.o.d 
 	@${RM} ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/buttons.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  bsp/exp16/pic24fj128ga204_pim/buttons.c  -o ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/buttons.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/buttons.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
+	${MP_CC} $(MP_EXTRA_CC_PRE)  bsp/exp16/pic24fj128ga204_pim/buttons.c  -o ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/buttons.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/buttons.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/buttons.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/lcd.o: bsp/exp16/pic24fj128ga204_pim/lcd.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim" 
 	@${RM} ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/lcd.o.d 
 	@${RM} ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/lcd.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  bsp/exp16/pic24fj128ga204_pim/lcd.c  -o ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/lcd.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/lcd.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
+	${MP_CC} $(MP_EXTRA_CC_PRE)  bsp/exp16/pic24fj128ga204_pim/lcd.c  -o ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/lcd.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/lcd.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/lcd.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/leds.o: bsp/exp16/pic24fj128ga204_pim/leds.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim" 
 	@${RM} ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/leds.o.d 
 	@${RM} ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/leds.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  bsp/exp16/pic24fj128ga204_pim/leds.c  -o ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/leds.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/leds.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
+	${MP_CC} $(MP_EXTRA_CC_PRE)  bsp/exp16/pic24fj128ga204_pim/leds.c  -o ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/leds.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/leds.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/leds.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/timer_1ms.o: bsp/exp16/pic24fj128ga204_pim/timer_1ms.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim" 
 	@${RM} ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/timer_1ms.o.d 
 	@${RM} ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/timer_1ms.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  bsp/exp16/pic24fj128ga204_pim/timer_1ms.c  -o ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/timer_1ms.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/timer_1ms.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
+	${MP_CC} $(MP_EXTRA_CC_PRE)  bsp/exp16/pic24fj128ga204_pim/timer_1ms.c  -o ${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/timer_1ms.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/timer_1ms.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/bsp/exp16/pic24fj128ga204_pim/timer_1ms.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/system_config/exp16/pic24fj128ga204_pim/system.o: system_config/exp16/pic24fj128ga204_pim/system.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/system_config/exp16/pic24fj128ga204_pim" 
 	@${RM} ${OBJECTDIR}/system_config/exp16/pic24fj128ga204_pim/system.o.d 
 	@${RM} ${OBJECTDIR}/system_config/exp16/pic24fj128ga204_pim/system.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  system_config/exp16/pic24fj128ga204_pim/system.c  -o ${OBJECTDIR}/system_config/exp16/pic24fj128ga204_pim/system.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/system_config/exp16/pic24fj128ga204_pim/system.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
+	${MP_CC} $(MP_EXTRA_CC_PRE)  system_config/exp16/pic24fj128ga204_pim/system.c  -o ${OBJECTDIR}/system_config/exp16/pic24fj128ga204_pim/system.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/system_config/exp16/pic24fj128ga204_pim/system.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/system_config/exp16/pic24fj128ga204_pim/system.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  main.c  -o ${OBJECTDIR}/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/main.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
+	${MP_CC} $(MP_EXTRA_CC_PRE)  main.c  -o ${OBJECTDIR}/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/main.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -O0 -I"bsp/exp16/pic24fj128ga204_pim" -I"system_config/exp16/pic24fj128ga204_pim" -I"." -I".." -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 else
@@ -212,7 +212,7 @@ endif
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
 dist/${CND_CONF}/${IMAGE_TYPE}/E16LCDDemo_pic24fj128ga204_pim_1.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk    
 	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
-	${MP_CC} $(MP_EXTRA_LD_PRE)  -o dist/${CND_CONF}/${IMAGE_TYPE}/E16LCDDemo_pic24fj128ga204_pim_1.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}      -mcpu=$(MP_PROCESSOR_OPTION)        -D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)   -mreserve=data@0x800:0x81B -mreserve=data@0x81C:0x81D -mreserve=data@0x81E:0x81F -mreserve=data@0x820:0x821 -mreserve=data@0x822:0x823 -mreserve=data@0x824:0x827 -mreserve=data@0x82A:0x84F   -Wl,--local-stack,,--defsym=__MPLAB_BUILD=1,--defsym=__MPLAB_DEBUG=1,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_REAL_ICE=1,$(MP_LINKER_FILE_OPTION),--stack=16,--check-sections,--data-init,--pack-data,--handles,--no-isr,--no-gc-sections,--fill-upper=0,--stackguard=16,--no-force-link,--smart-io,--report-mem,--memorysummary,dist/${CND_CONF}/${IMAGE_TYPE}/memoryfile.xml$(MP_EXTRA_LD_POST) 
+	${MP_CC} $(MP_EXTRA_LD_PRE)  -o dist/${CND_CONF}/${IMAGE_TYPE}/E16LCDDemo_pic24fj128ga204_pim_1.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}      -mcpu=$(MP_PROCESSOR_OPTION)        -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -DXPRJ_pic24fj128ga204_pim=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)   -mreserve=data@0x800:0x81B -mreserve=data@0x81C:0x81D -mreserve=data@0x81E:0x81F -mreserve=data@0x820:0x821 -mreserve=data@0x822:0x823 -mreserve=data@0x824:0x827 -mreserve=data@0x82A:0x84F   -Wl,--local-stack,,--defsym=__MPLAB_BUILD=1,--defsym=__MPLAB_DEBUG=1,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,$(MP_LINKER_FILE_OPTION),--stack=16,--check-sections,--data-init,--pack-data,--handles,--no-isr,--no-gc-sections,--fill-upper=0,--stackguard=16,--no-force-link,--smart-io,--report-mem,--memorysummary,dist/${CND_CONF}/${IMAGE_TYPE}/memoryfile.xml$(MP_EXTRA_LD_POST) 
 	
 else
 dist/${CND_CONF}/${IMAGE_TYPE}/E16LCDDemo_pic24fj128ga204_pim_1.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   

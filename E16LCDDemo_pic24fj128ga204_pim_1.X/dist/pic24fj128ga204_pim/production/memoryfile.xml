@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/pic24fj128ga204_pim/production/E16LCDDemo_pic24fj128ga204_pim_1.X.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>8192</length>
+      <used>104</used>
+      <free>8088</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>131316</length>
+      <used>5937</used>
+      <free>125379</free>
+    </memory>
+  </executable>
+</project>
